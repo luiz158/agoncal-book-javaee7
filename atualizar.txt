@@ -1,0 +1,15 @@
+cd 
+cd jee7-treino/
+cd agoncal-book-javaee7/
+ls -als
+git status
+git remote add agoncal git://github.com/agoncal/agoncal-book-javaee7
+git remote -v
+
+
+git pull agoncal master
+git status
+git commit -am 'atualizado para master de agoncal'
+git push
+ls
+
